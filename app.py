@@ -10,10 +10,10 @@ import seaborn as sns
 
 
 #Read data from for laptop
-athlete_df=pd.read_csv(r'C:\Users\HP\Desktop\streamlit\Project-1\athlete_events.csv')
-noc_df=pd.read_csv(r'C:\Users\HP\Desktop\streamlit\Project-1\noc_regions.csv')
-
-
+#athlete_df=pd.read_csv(r'C:\Users\HP\Desktop\streamlit\Project-1\athlete_events.csv')
+#noc_df=pd.read_csv(r'C:\Users\HP\Desktop\streamlit\Project-1\noc_regions.csv')
+athlete_df=pd.read_csv('athlete_events.csv')
+noc_df=pd.read_csv('noc_regions.csv')
 #---------------------------------For Data Cleaning---------------------------------#
 athlete_df.isna().any()
 
